@@ -19,11 +19,11 @@ int main()
 	cout <<"+++++++++++++++++++++++++++++++++++++++++" <<endl;
 	cout <<"Project : Volume dan Luas Tabung" <<endl;
 	cout <<"+++++++++++++++++++++++++++++++++++++++++" <<endl;
-	cout <<"dengan jari-jari yang telah ditentukan : " <<jariyogi <<endl;
-	cout <<"dengan tinggi yang telah ditentukan : " <<tinggiyogi <<endl;
+	cout <<"DIK : jari jari  : " <<jariyogi <<endl;
+	cout <<"      tinggi     : " <<tinggiyogi <<endl;
 	cout <<"+++++++++++++++++++++++++++++++++++++++++" <<endl;
-	cout <<"Volume tabung adalah : " <<vtabungy <<endl;
-	cout <<"Luas tabung adalah : yogi : " <<ltabung <<endl;
+	cout <<"Volume tabung = " <<vtabungy <<endl;
+	cout <<"Luas tabung   = " <<ltabung <<endl;
 	
 	//cin intyogi
 	cout <<"-------------------------------------------" <<endl;
