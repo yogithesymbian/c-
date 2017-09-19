@@ -69,6 +69,7 @@ while (deloop == true)
 		deloop = false;
 gotoyx(45,24);
 //dont change above text for us <code><precode>codepen
+//https://github.com/yogithesymbian/c-/blob/master/whilebool.cpp
 cout <<" Thanks for using My Program | GNU/GPL (C) 2017  " <<endl;
 gotoyx(80,9);
 cout <<" ------------------ " <<endl;
