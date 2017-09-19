@@ -6,7 +6,7 @@
 #define tinggiyogi 24
 
 using namespace std;
-int yogijari, yogitinggi, vtabungy, ltabungyo;
+int yogijari, yogitinggi, vtabungyogi, ltabungyo;
 
 int main()
 {	
