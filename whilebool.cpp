@@ -17,7 +17,7 @@ int main()
 	double nilaiyog;
 	char anugrade;
 
-	system("Color 0A"); //hapus angka 0 nya gan buat liat color code nya jadi hanya color a saja
+	system("Color 0A"); 
 	cout <<"++++++++++++++++++++++++++++++" <<endl;
 	cout <<"     Progam Data Mahasiswa    " <<endl;
 	cout <<"++++++++++++++++++++++++++++++" <<endl;
