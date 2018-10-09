@@ -17,3 +17,7 @@ u must be know : Basic , object oriented and advance ...
 mailto : yogirenbox33@gmail.com or yogiaw@scode.id or yochat@yogi-aw.id
 
 if u want me , to make some program or ( i can say " Freelancer " ) ok , i accept it.
+
+------------------
+
+My Porfolio : https://scode.id
