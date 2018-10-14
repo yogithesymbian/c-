@@ -13,21 +13,29 @@ float xiyogi(float yogi) //g(x-i) and xi
 {
 	float inYogi;
 	inYogi = exp(-yogi);
+	return inYogi;
 }
 
-float fxiyogi(float arif)
+float fxiyogi(float arif) //f(xi)
 {
 	float theYogi;
 	theYogi = exp(-arif)-arif;
+	return theYogi;
 }
 int main()
 {
 	
-    float x[999];
-    float y[999];
+	float jikaFabs;
 	
-	float xNol, epilson, iterasi;
+	float xNol;
+	float epilson;
+	float iterasi;
+	float dante; //for xi
+	
 	system("Color 0A");
+	
+	cout << fixed;
+	cout.precision(6);
 	cout <<endl;
 	for(int i = 0 ; i < 66; i++)
 	{
@@ -40,7 +48,6 @@ int main()
 	
 	cout <<"\tMasukan Nilai epilson(Galat) \t: " ;
 	cin >>epilson;
-	
 	cout <<"\tMasukan Nilai Iterasi \t\t: " ;
 	cin >>iterasi;
 	cout <<endl;
@@ -49,22 +56,20 @@ int main()
 		cout <<"_";
 	}
 	cout <<endl;
-	cout <<"Iterasi\t\tx0\t\tg(x-1)\t\txi\t\tf(xi)";
+	cout <<"Iterasi\t\tx0\t\tg(x-1)\t\t\txi\t\t\tf(xi)";
 	cout <<endl;
-	YOGI:
-	for (int it = 1; it <=iterasi; it++)
+	
+	for ( int it = 1; it <=iterasi; it++)
 	{
-		
-		float dante;
+//	  //for xi	=	//g(x-1)
 		dante = xiyogi(xNol);
+//		        //iterasi            //x0             //g(x-1)                //xi                //f(xi)
+		cout <<"   "<<it <<"\t\t" <<"0" <<"\t\t" <<xiyogi(xNol) <<"\t\t" <<dante <<"\t\t" <<fxiyogi(dante);
+//for loop		
+		xNol = dante;
+		jikaFabs= fabs(fxiyogi(dante));
 		
-		cout <<"   "<<it <<"\t\t" <<xNol <<"\t\t" <<xiyogi(xNol) <<"\t\t" <<xiyogi(xNol) <<"\t\t" <<fxiyogi(dante);
-		float ayo = abs(fxiyogi(dante));
-		if(ayo > it)
-		{
-			it++;
-			goto YOGI;
-		}
 		cout <<endl;
 	}
+	cout <<"hasil akar persamaan = " <<dante;
 }
