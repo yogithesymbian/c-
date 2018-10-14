@@ -125,7 +125,7 @@ int program() //program
 	}
 	cout <<endl;
 	char ulangi;
-		cout <<endl <<"Ulangi Program ? 'Y' / 'N' Exit :";
+		cout <<endl <<"Ulangi Program ? 'Y' / '!Y' Exit :";
 		
 		cin >>ulangi;
 		if(ulangi == 'Y' || ulangi == 'y')
@@ -224,7 +224,7 @@ int programSatu() //program
 	}
 	cout <<endl;
 		char ulangi;
-		cout <<endl <<"Ulangi Program ? 'Y' / 'N' Exit :";
+		cout <<endl <<"Ulangi Program ? 'Y' / '!Y' Exit :";
 		
 		cin >>ulangi;
 		if(ulangi == 'Y' || ulangi == 'y')
