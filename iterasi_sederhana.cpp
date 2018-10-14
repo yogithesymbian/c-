@@ -40,7 +40,7 @@ int main()
 	
 	cout <<"\tMasukan Nilai epilson(Galat) \t: " ;
 	cin >>epilson;
-	YOGI:
+	
 	cout <<"\tMasukan Nilai Iterasi \t\t: " ;
 	cin >>iterasi;
 	cout <<endl;
@@ -51,7 +51,7 @@ int main()
 	cout <<endl;
 	cout <<"Iterasi\t\tx0\t\tg(x-1)\t\txi\t\tf(xi)";
 	cout <<endl;
-	
+	YOGI:
 	for (int it = 1; it <=iterasi; it++)
 	{
 		
@@ -62,6 +62,7 @@ int main()
 		float ayo = abs(fxiyogi(dante));
 		if(ayo > it)
 		{
+			it++;
 			goto YOGI;
 		}
 		cout <<endl;
