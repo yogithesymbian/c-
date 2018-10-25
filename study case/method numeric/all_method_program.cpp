@@ -132,6 +132,7 @@ void tabel_process()
     	cout<<"_";
 	}
 	cout <<endl <<endl <<endl;
+	cout<<"   I" <<"\t\t X" <<"\t\t\t     f(x)"<<endl;
     for(int yogi=0; yogi < 66; yogi++)
     {
     	cout<<"_";
