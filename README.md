@@ -1,5 +1,6 @@
 # c++
 kuliah pemrograman dasar
+![alt text](https://lh3.googleusercontent.com/3toBGe1Q98pfJ4OMOpe_Q1Yn4rZXuRmhpWIHVbe1ZpQpCMz20XTyyz44OovFwpyDi2UGXBSJV0FJxQeI2VoC=w1366-h669-rw)
 
 I'm using two of IDE
 1. Visual Studio
