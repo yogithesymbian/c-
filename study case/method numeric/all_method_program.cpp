@@ -358,6 +358,10 @@ int iterasi_sederhana_process1() //program
 		// 	system("exit");
 		// }
 }
+void link_github()
+{
+	cout <<endl <<"\thttps://github.com/yogithesymbian/c-/blob/master/study%20case/method%20numeric/all_method_program.cpp" <<endl;
+}
 //newton_raphson_method
 int newton_raphson_process() //program
 {
@@ -793,6 +797,7 @@ void menuPilProgram()
 		cout << "_";
 	}
 	cout <<endl;
+
 	cout << "\n\t 1. Method Tabel \t\t|";
 	cout << "\n\t 2. Method Regula Falsi \t|";
 	cout << "\n\t 3. Method Bisection \t\t|";
@@ -864,7 +869,7 @@ int main()
 	//output
     system("Color 0A");
 	diketahuiStudyCase();
-
+link_github();
 	menuPilProgram();
 
 	cout <<endl <<endl;
