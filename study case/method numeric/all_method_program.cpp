@@ -99,7 +99,7 @@ float fxiayogi(float widodo) //f(x) = e ^ x - x
 // secant_function
 float fungsinya(float x)
 {
-	return exp(-x)-x;
+	return exp(x)-5*pow(x,2);
 }
 
 //==================================================
