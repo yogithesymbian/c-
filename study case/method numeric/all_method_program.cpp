@@ -292,10 +292,10 @@ int iterasi_sederhana_process1() //program
 	float tetapOk;
 	tetapOk = xNol; //penetapan x awal val perm
 
-	cout <<"\tMasukan Nilai epilson(Galat) \t: " ;
-	cin >>epilson;
 	cout <<"\tMasukan Nilai Iterasi \t\t: " ;
 	cin >>iterasi;
+	cout <<"\tMasukan Nilai epilson(Galat) \t: " ;
+	cin >>epilson;
 //============================ DI Soal menggunakan input tetapi kita tidak tahu berapa iterasi hingga ia stop
 //============================ algoritma jika abs xi maka loop
 //============================ program ini bisa menggunakan input iterasi dan tanpa iterasi
@@ -472,7 +472,21 @@ int newton_raphson_process() //program
 * bisection_function
 * regula_falsi_function
 */
-float f(float x); //for bisection and regula falsi
+float f(float x) //for bisection and regula falsi
+// the descript this function was descript on above
+{
+//     float e=2.71828182845904523536;
+//     float  hasil,hasil2,hasil3,hasil4;
+//
+//     hasil = x*(-1);
+//     hasil3 = pow(e,hasil);
+//     hasil4=hasil3-x;
+//karena di atas sudah di process ke dalam f(x) = e^x - 5x^2
+     return(exp(-x)-x);
+// return exp(x)-5*pow(x,2);
+//
+// return (hasil4);
+}
 // regula_falsi_method
 void regula_falsi_process()
 {
@@ -742,19 +756,7 @@ void secant_process()
 		// }
 
 }
-// the descript this function was descript on above
-float f(float x)
-{
-//     float e=2.71828182845904523536;
-//     float  hasil,hasil2,hasil3,hasil4;
-//
-//     hasil = x*(-1);
-//     hasil3 = pow(e,hasil);
-//     hasil4=hasil3-x;
-	return exp(x)-5*pow(x,2);
-//
-// return (hasil4);
-}
+
 
 // sub menu for iterasi sederhana
 void subMenu()
