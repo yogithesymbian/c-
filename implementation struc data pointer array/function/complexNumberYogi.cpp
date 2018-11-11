@@ -1,4 +1,6 @@
 // source default https://www.programmingsimplified.com/cpp/source-code/add-complex-numbers
+// ref https://scodeid.blogspot.com/p/document-save-sifat-bilangan-complex.html
+// 
 /*
 * implementation with my style code
 * combined array , struct data, pointer, funtction
