@@ -5,7 +5,7 @@ kuliah pemrograman dasar
 
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://scodeid.blogspot.com)
 
-Lorem
+Thanks for Allah, Lecture, Internet, Google, Stackoverflow, Github, Tutorialspoint, and ws3school
 
 ## Official Documentation
 
