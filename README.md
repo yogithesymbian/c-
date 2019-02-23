@@ -1,6 +1,20 @@
 # c++
 kuliah pemrograman dasar
-![alt text](https://lh3.googleusercontent.com/3toBGe1Q98pfJ4OMOpe_Q1Yn4rZXuRmhpWIHVbe1ZpQpCMz20XTyyz44OovFwpyDi2UGXBSJV0FJxQeI2VoC=w1366-h669-rw)
+
+# C and C++ ( CLI )
+
+[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://scodeid.blogspot.com)
+
+Lorem
+
+## Official Documentation
+
+Documentation for the framework can be found on the [scode blog](http://scodeid.blogspot.com).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within my prog, please send an e-mail to Yogi Arif Widodo at yogirenbox33@gmail.com. All security vulnerabilities will be promptly addressed.
+
 
 I'm using two of IDE
 1. Visual Studio
@@ -8,6 +22,7 @@ I'm using two of IDE
 
 update Using
 1. ATOM.IO
+2. VScode
 
 the between of it's any have a contradiction in function , using variable , etc . . .
 
@@ -16,11 +31,8 @@ the between of it's any have a contradiction in function , using variable , etc 
 
 -------------------
 
-u must be know : Basic , object oriented and advance ...
 
-mailto : yogirenbox33@gmail.com or yogiaw@scode.id or yochat@yogi-aw.id
-
-if u want me , to make some program or ( i can say " Freelancer " ) ok , i accept it.
+mailto : yogiaw@scode.id or yochat@yogi-aw.id
 
 ------------------
 
