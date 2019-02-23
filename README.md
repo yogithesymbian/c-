@@ -5,7 +5,7 @@ kuliah pemrograman dasar
 
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://scodeid.blogspot.com)
 
-Thanks for Allah, Lecture, Internet, Google, Stackoverflow, Github, Tutorialspoint, and ws3school
+This my file from learning c and c++ from semester 1 - 3, i only have structure for 3 semester folder. on 1 and 2 semester i did not.
 
 ## Official Documentation
 
@@ -27,4 +27,5 @@ mailto : yogiaw@scode.id or yochat@yogi-aw.id
 
 ------------------
 
+Thanks for Allah, Lecture, Internet, Google, Stackoverflow, Github, Tutorialspoint, and ws3school
 My Porfolio : https://scode.id
